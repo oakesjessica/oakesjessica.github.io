@@ -1,0 +1,84 @@
+html, header, footer, p, ul, li {
+    padding: 0px;
+    margin: 0px;
+    border: 0px;
+    font-size: 100%;
+    font: inherit;
+}
+
+html {
+    font-family: arial;
+    background-color: #669900;
+    background-size: cover;
+}
+
+body {
+	background-color: white;
+	margin: 40px 150px;
+	border-radius: 5px;
+	padding: 10px;
+}
+
+header {
+	border-bottom: 2px solid black;
+	padding-bottom: 3px;
+}
+
+h2, h3 {
+    margin: 10px 0px 0px;
+    font-variant: small-caps;
+}
+
+h3 {
+    border-bottom: 1px solid black;
+}
+
+h5 {
+	margin: 10px 0px 0px;
+	padding: 0px 0px 0px 10px;
+}
+
+p {
+    font-size: 13px;
+    padding: 0px 25px 0px 10px;
+}
+
+.personalinfo p, .personalinfo h2 {
+	text-align: center;
+}
+
+.personalinfo p {
+	padding: 0px;
+}
+
+.experience p, .cges p {
+    font-style: italic;
+    padding: 0px 25px 0px 10px;
+}
+
+.experience ul {
+    padding: 0px 25px 0px;
+}
+
+.experience li, .cges li, li {
+    font-size: 13px;
+}
+
+.cges ul {
+	padding: 0px 25px 8px;
+}
+
+ul {
+    padding: 5px 25px 0px;
+}
+
+#headshot {
+	width: 150px;
+	height: 150px;
+	display: block;
+	margin: 0 auto;
+}
+#headshot img {
+	width: 100%;
+	height: auto;
+}
