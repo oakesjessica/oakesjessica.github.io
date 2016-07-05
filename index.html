@@ -1,19 +1,38 @@
 <!DOCTYPE html>
 <html>
-	<head>
-		<meta charset="utf-8">
-		<title>Personal Website</title>
+  <head>
+    <meta charset="utf-8">
+    <title>Personal Website</title>
 
-		<!-- Libraries/Frameworks -->
+    <!--::::::Libraries/Frameworks::::::-->
+    <script src="https://use.fontawesome.com/d3f4c30ea5.js"></script>
+    <link rel="stylesheet" href="vendors/bootstrap/bootstrap.min.css" />
 
-		<!-- Development Files -->
-		<script src="assets/scripts/app.js"></script>
-		<link rel="stylesheet" href="assets/styles/style.css" />
-	</head>
-	<body class="container-fluid">
-		<header>
-			<h2>Jessica Oakes</h2>
-			<h4>Full-Stack Software Engineer</h4>
-		</header>
-	</body>
+    <!--::::::Development Files::::::-->
+    <script src="assets/scripts/app.js"></script>
+    <link rel="stylesheet" href="assets/styles/style2.css" />
+
+    <!--::::::Base href::::::-->
+    <base href="/" />
+
+  </head>
+  <body>
+    <header>
+      <ul class="navLinks">
+        <li class="menuLink">MY JOURNEY</li>
+        <li class="menuLink"><a class="aLink" href="/resume">RESUME</a></li>
+        <li class="menuLink"><a class="aLink" href="/projects">PROJECTS</a></li>
+        <li class="menuLink"><a class="aLink" href="https://github.com/oakesjessica">GITHUB</a></li>
+        <li class="menuLink"><a class="aLink" href="https://www.linkedin.com/in/oakesjessica">LINKEDIN</a></li>
+        <li class="contactLink">CONNECT!</li>
+      </ul>
+    </header>
+    <main>
+      <div ng-view>
+      </div>
+    </main>
+    <footer>
+      <h6>Copyright Jessica Oakes 2016</h6>
+    </footer>
+  </body>
 </html>

@@ -1,9 +1,9 @@
-$(document).ready(function() {
-	$('#show').on('click', function() {
-		$('.hidebody').removeClass('hide');
-	})	<!--show-->
+app.config(["$routeProvider", "$locationProvider", function($routeProvider, $locationProvider) {
+  $routeProvider
+    .when("/projects", {
+      templateUrl: "views/login.html",
+    });
 
-	$('#hide').on('click', function() {
-		$('.hidebody').addClass('hide');
-	})
-});
+  $locationProvider.html5Mode(true);
+
+}]);
