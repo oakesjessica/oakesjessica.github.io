@@ -47,7 +47,7 @@ header, body, footer {
     border-radius: 5px;
 }
 
-.aLink:link {
+a, .aLink:link {
     color: #FFFFFF;
     text-decoration: none;
 }
