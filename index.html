@@ -13,27 +13,37 @@
     <script src="assets/scripts/app.js"></script>
     <link rel="stylesheet" href="assets/styles/style.css" />
 
-    <!--::::::Base href::::::-->
+    <!--::::::Base HREF::::::-->
     <base href="/" />
-
   </head>
   <body>
     <header>
-      <ul class="navLinks">
-        <li class="menuLink">MY JOURNEY</li>
-        <li class="menuLink"><a class="aLink" href="/resume">RESUME</a></li>
-        <li class="menuLink"><a class="aLink" href="/projects">PROJECTS</a></li>
-        <li class="menuLink"><a class="aLink" href="https://github.com/oakesjessica" target="_blank">GITHUB</a></li>
-        <li class="menuLink"><a class="aLink" href="https://www.linkedin.com/in/oakesjessica" target="_blank">LINKEDIN</a></li>
-        <li class="contactLink">CONNECT!</li>
-      </ul>
+      <div class="navHeader">
+        <h1 class="siteTitle"><a href="/">JESSICA OAKES</a></h1>
+        <div class="mainNav">
+          <ul class="siteNav">
+            <!-- <li class="pageNav"><a href="#resume">RESUME</a></li>
+            <li class="pageNav"><a href="#projects">PROJECTS</a></li> -->
+            <li class="pageNav"><a href="/">MY JOURNEY</a></li>
+            <li class="pageNav"><a href="/">RESUME <span class="soon"><i>(coming soon)</i></span></a></li>
+            <li class="pageNav"><a href="/">PROJECTS <span class="soon"><i>(coming soon)</i></span></a></li>
+            <li class="pageNav"><a href="https://github.com/oakesjessica" target="_blank">GITHUB</a></li>
+            <li class="pageNav"><a href="https://www.linkedin.com/in/oakesjessica" target="_blank">LINKEDIN</a></li>
+            <li class="contactNav"><a href="mailto:jessica.yoonah@gmail.com">CONNECT!</a></li>
+          </ul>
+        </div>
+      </div>
     </header>
     <main>
-      <div ng-view>
-      </div>
+      <p>Hi! I'm Jessica Oakes</p>
+      <p>I'm a full-stack software engineer</p>
+      <p>I recently graduated from an intensive 18-week MEAN Stack <a href="http://www.primeacademy.io" target="_blank">bootcamp</a></p>
+      <p>In those 18 weeks, I created a personal project within two weeks and</p>
+      <p>a capstone client project for <a href="http://www.sportngin.com/" target="_blank">Sport Ngin</a></p>
+      <p></p>
     </main>
     <footer>
-      <h6>Copyright Jessica Oakes 2016</h6>
+      <h6><i class="fa fa-copyright"></i> <span>Jessica Oakes 2016</span></h6>
     </footer>
   </body>
 </html>
