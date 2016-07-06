@@ -30,7 +30,7 @@ footer {
     font-size: 11px;
 }
 /********************************HEADERS*********************************/
-.navHeader {
+.menu {
     padding: 20px;
 }
 
@@ -65,15 +65,20 @@ footer {
 .contactNav {
     border: 3.5px solid #FFFFFF;
     border-radius: 10px;
+    transition: border 0.3s ease-in;
+}
+
+.contactNav:hover {
+    border-color: #008080;
 }
 
 /********************************LINKS*********************************/
-a:link {
+a, a:link {
     text-decoration: none;
     color: #FFFFFF;
 }
 
 /********************************MAIN BODY*********************************/
-main {
+main, footer {
     padding: 20px;
 }
