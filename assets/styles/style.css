@@ -14,7 +14,7 @@ html, body {
     background-size: cover;
 }
 
-header {
+/*header {
     border: 1px solid red;
 }
 
@@ -24,7 +24,7 @@ body {
 
 footer {
     border: 1px solid green;
-}
+}*/
 
 .soon {
     font-size: 11px;
