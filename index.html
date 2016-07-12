@@ -1,8 +1,9 @@
 <!DOCTYPE html>
-<html ng-app="personalWebsite">
+<html>
   <head>
     <meta charset="utf-8">
     <title>Personal Website</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
     <!--::::::Libraries/Frameworks::::::-->
     <script src="https://use.fontawesome.com/d3f4c30ea5.js"></script>
@@ -11,39 +12,41 @@
     <link rel="stylesheet" href="vendors/bootstrap/bootstrap.min.css" />
 
     <!--::::::Development Files::::::-->
-    <script src="assets/scripts/app.js"></script>
+    <!-- <script src="assets/scripts/app.js"></script> -->
     <link rel="stylesheet" href="assets/styles/style.css" />
 
-    <!--::::::Base HREF::::::-->
-    <base href="/" />
   </head>
   <body>
     <header>
-      <div class="menu">
-        <h1 class="siteTitle"><a href="/">JESSICA OAKES</a></h1>
-        <div class="mainNav">
-          <ul class="siteNav">
-            <!-- <li class="pageNav"><a href="#resume">RESUME</a></li>
-            <li class="pageNav"><a href="#projects">PROJECTS</a></li> -->
-            <li class="pageNav"><a href="/">MY JOURNEY</a></li>
-            <li class="pageNav"><a href="/">RESUME <span class="soon"><i>(coming soon)</i></span></a></li>
-            <li class="pageNav"><a href="/">PROJECTS <span class="soon"><i>(coming soon)</i></span></a></li>
-            <li class="pageNav"><a href="https://github.com/oakesjessica" target="_blank">GITHUB</a></li>
-            <li class="pageNav"><a href="https://www.linkedin.com/in/oakesjessica" target="_blank">LINKEDIN</a></li>
-            <li class="contactNav"><a href="mailto:jessica.yoonah@gmail.com">CONNECT!</a></li>
-          </ul>
-        </div>
-      </div>
     </header>
     <main>
-      <p>Hi! I'm Jessica Oakes</p>
-      <p>I'm a full-stack software engineer</p>
-      <p>I recently graduated from an intensive 18-week MEAN Stack <a href="http://www.primeacademy.io" target="_blank">bootcamp</a></p>
-      <p>In those 18 weeks, I created a personal project within two weeks and</p>
-      <p>a capstone client project for <a href="http://www.sportngin.com/" target="_blank">Sport Ngin</a></p>
-      <p></p>
+      <img src="assets/images/mypic.jpg" class="profilePic"/>
+      <div class="social text-center">
+        <ul class="siteNav text-center">
+          <a href="https://github.com/oakesjessica" target="_blank">
+            <li class="links">
+              <i class="fa fa-2x fa-github"></i>
+            </li>
+          </a>
+          <a href="https://linkedin.com/in/oakesjessica" target="_blank">
+            <li class="links">
+              <i class="fa fa-2x fa-linkedin"></i>
+            </li>
+          </a>
+        </ul>
+      </div>
+      <h1 class="siteTitle text-center">Jessica Oakes</h1>
+      <div class="text-center">
+        <p>Hi! I'm Jessica Oakes</p>
+        <p>I'm a linguist turned full-stack software engineer.</p>
+        <p>I started out with Python and Java learning Natural Language Processing</p>
+        <p>and recently graduated from an intensive 18-week MEAN Stack <a href="http://www.primeacademy.io" target="_blank">bootcamp.</a></p>
+        <p>In those 18 weeks, I created a <a href="https://github.com/oakesjessica/book_tracker" target="_blank">full-stack personal project</a> within two weeks and</p>
+        <p>a <a href="https://github.com/oakesjessica/Capstone_Sport-Ngin-Tryouts-App" target="_blank">capstone client project</a> for <a href="http://www.sportngin.com/" target="_blank">Sport Ngin.</a></p>
+        <p>I love learning new software and am looking for any opportunity to continue learning!</p>
+      </div>
     </main>
-    <footer>
+    <footer class="text-center">
       <h6><i class="fa fa-copyright"></i> <span>Jessica Oakes 2016</span></h6>
     </footer>
   </body>

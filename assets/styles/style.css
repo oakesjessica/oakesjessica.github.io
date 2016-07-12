@@ -10,7 +10,7 @@ html, header, body, footer {
 
 html, body {
     font-family: arial, verdana, helvetica;
-    background: #7fbfbf;
+    background: #5a9b9b;
     background-size: cover;
 }
 
@@ -34,7 +34,7 @@ footer {
     padding: 20px;
 }
 
-.siteTitle, .mainNav {
+.mainNav {
     display: inline;
 }
 
@@ -42,9 +42,19 @@ footer {
     color: #FFFFFF;
 }
 
+.profilePic {
+    height: 200px;
+    width: 200px;
+    display: block;
+    border-radius: 50%;
+    border: 1px solid #FFFFFF;
+    margin: 0px auto 20px auto;
+}
+
 .siteNav {
     display: inline;
     list-style-type: none;
+    padding: 0px 0px 5px 0px;
 }
 
 .pageNav, .contactNav {
@@ -64,7 +74,7 @@ footer {
 
 .contactNav {
     border: 3.5px solid #FFFFFF;
-    border-radius: 10px;
+    border-radius: 50px;
     transition: border 0.3s ease-in;
 }
 
@@ -78,7 +88,16 @@ a, a:link {
     color: #FFFFFF;
 }
 
+.links {
+    display: inline;
+    padding-right: 10px;
+}
 /********************************MAIN BODY*********************************/
 main, footer {
     padding: 20px;
+}
+
+.description {
+    margin-left: auto;
+    margin-right: auto;
 }
