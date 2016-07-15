@@ -9,95 +9,46 @@ html, header, body, footer {
 }
 
 html, body {
+    height: 100vh;
+    width: 100vw;
     font-family: arial, verdana, helvetica;
-    background: #5a9b9b;
+    background: linear-gradient(rgba(39,40,51, 0.8), rgba(147,147,153, 0.8)), url("../images/background-main.jpg") #5a9b9b;
     background-size: cover;
+    color: #CCCCCC;
 }
 
-/*header {
-    border: 1px solid red;
+/********************************MAIN*********************************/
+.about {
+  background: rgba(40, 40, 40, 0.4);
+  padding: 0px 10px;
+  float: right;
+  margin: 20px;
+  width: 40vw;
+  border-radius: 20px;
 }
 
-body {
-    border: 1px solid blue;
+.social {
+  padding: 5px 0px 20px 0px;
+  text-align: center;
 }
 
-footer {
-    border: 1px solid green;
-}*/
-
-.soon {
-    font-size: 11px;
-}
-/********************************HEADERS*********************************/
-.menu {
-    padding: 20px;
+.site-nav {
+  list-style-type: none;
+  display: inline;
 }
 
-.mainNav {
-    display: inline;
+.link-nav {
+  display: inline;
+  margin: 10px;
 }
 
-.siteTitle {
-    color: #FFFFFF;
-}
-
-.profilePic {
-    height: 200px;
-    width: 200px;
-    display: block;
-    border-radius: 50%;
-    border: 1px solid #FFFFFF;
-    margin: 0px auto 20px auto;
-}
-
-.siteNav {
-    display: inline;
-    list-style-type: none;
-    padding: 0px 0px 5px 0px;
-}
-
-.pageNav, .contactNav {
-    display: inline;
-    padding: 8px;
-    margin: 0px 0px 0px 14px;
-}
-
-.pageNav {
-    transition: border-bottom 0.3s ease-in;
-    border-bottom: 3.5px solid transparent;
-}
-
-.pageNav:hover {
-    border-bottom-color: #008080;
-}
-
-.contactNav {
-    border: 3.5px solid #FFFFFF;
-    border-radius: 50px;
-    transition: border 0.3s ease-in;
-}
-
-.contactNav:hover {
-    border-color: #008080;
-}
-
-/********************************LINKS*********************************/
-a, a:link {
-    text-decoration: none;
-    color: #FFFFFF;
-}
-
-.links {
-    display: inline;
-    padding-right: 10px;
-}
-/********************************MAIN BODY*********************************/
-main, footer {
-    padding: 20px;
+.fa {
+  color: #FFFFFF;
+  padding: 7px;
+  border: 1.5px solid #FFFFFF;
+  border-radius: 2px;
 }
 
 .description {
-    margin-left: auto;
-    margin-right: auto;
+  color: #FFFFFF;
 }

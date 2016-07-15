@@ -1,0 +1,25 @@
+{
+  "name": "oakesjessica.github.io",
+  "version": "1.0.0",
+  "description": "This is a project for my personal portfolio page. I will eventually link this to an external website domain.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/oakesjessica/oakesjessica.github.io.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/oakesjessica/oakesjessica.github.io/issues"
+  },
+  "homepage": "https://github.com/oakesjessica/oakesjessica.github.io#readme",
+  "dependencies": {
+    "angular": "^1.5.7",
+    "angular-route": "^1.5.7",
+    "bootstrap": "^3.3.6"
+  }
+}
