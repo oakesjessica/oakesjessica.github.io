@@ -8,13 +8,19 @@ html, header, body, footer {
     font: inherit;
 }
 
+ul, li {
+  padding: 0px;
+  margin: 0px;
+}
+
 html, body {
     height: 100vh;
     width: 100vw;
     font-family: arial, verdana, helvetica;
     background: linear-gradient(rgba(39,40,51, 0.8), rgba(147,147,153, 0.8)), url("../images/background-main.jpg") #5a9b9b;
     background-size: cover;
-    color: #CCCCCC;
+    background-repeat: no-repeat;
+    color: #FFFFFF;
 }
 
 /********************************MAIN*********************************/
@@ -25,6 +31,10 @@ html, body {
   margin: 20px;
   width: 40vw;
   border-radius: 20px;
+}
+
+.intro {
+  font-style: italic;
 }
 
 .social {
