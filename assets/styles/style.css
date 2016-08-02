@@ -1,11 +1,11 @@
 /********************************GENERAL*********************************/
 
 html, header, body, footer {
-    padding: 0px;
-    margin: 0px;
-    border: 0px;
-    font-size: 100%;
-    font: inherit;
+  padding: 0px;
+  margin: 0px;
+  border: 0px;
+  font-size: 100%;
+  font: inherit;
 }
 
 ul, li {
@@ -14,13 +14,13 @@ ul, li {
 }
 
 html, body {
-    height: 100vh;
-    width: 100vw;
-    font-family: arial, verdana, helvetica;
-    background: linear-gradient(rgba(39,40,51, 0.8), rgba(147,147,153, 0.8)), url("../images/background-main.jpg") #5a9b9b;
-    background-size: cover;
-    background-repeat: no-repeat;
-    color: #FFFFFF;
+  height: 100vh;
+  width: 100vw;
+  font-family: arial, verdana, helvetica;
+  background: linear-gradient(rgba(39,40,51, 0.8), rgba(147,147,153, 0.8)), url("../images/background-main.jpg") #5a9b9b;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: #FFFFFF;
 }
 
 /********************************MAIN*********************************/
@@ -45,6 +45,10 @@ html, body {
 .site-nav {
   list-style-type: none;
   display: inline;
+}
+
+a {
+  display: inline-block;
 }
 
 .link-nav {
