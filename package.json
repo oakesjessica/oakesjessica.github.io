@@ -1,25 +1,27 @@
 {
   "name": "oakesjessica.github.io",
   "version": "1.0.0",
-  "description": "This is a project for my personal portfolio page. I will eventually link this to an external website domain.",
+  "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/oakesjessica/oakesjessica.github.io.git"
-  },
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/oakesjessica/oakesjessica.github.io/issues"
-  },
-  "homepage": "https://github.com/oakesjessica/oakesjessica.github.io#readme",
   "dependencies": {
-    "angular": "^1.5.7",
-    "angular-route": "^1.5.7",
-    "bootstrap": "^3.3.6"
+    "angular": "^1.5.8",
+    "angular-route": "^1.5.8",
+    "bootstrap": "^3.3.7",
+    "express": "^4.14.0",
+    "font-awesome": "^4.6.3"
+  },
+  "devDependencies": {
+    "grunt": "^1.0.1",
+    "grunt-contrib-copy": "^1.0.0",
+    "grunt-contrib-jade": "^1.0.0",
+    "grunt-contrib-sass": "^1.0.0",
+    "grunt-contrib-uglify": "^2.0.0",
+    "grunt-contrib-watch": "^1.0.0"
   }
 }
