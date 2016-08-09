@@ -6,15 +6,20 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/oakesjessica/oakesjessica.github.io.git"
+  },
   "author": "",
   "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/oakesjessica/oakesjessica.github.io/issues"
+  },
+  "homepage": "https://github.com/oakesjessica/oakesjessica.github.io#readme",
   "dependencies": {
-    "angular": "^1.5.8",
-    "angular-route": "^1.5.8",
     "bootstrap": "^3.3.7",
-    "express": "^4.14.0",
-    "font-awesome": "^4.6.3"
+    "font-awesome": "^4.6.3",
+    "jade": "^1.11.0"
   },
   "devDependencies": {
     "grunt": "^1.0.1",
