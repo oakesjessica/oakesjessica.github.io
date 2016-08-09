@@ -10,7 +10,7 @@ module.exports = function(grunt) {
         tasks: ['copy', 'jade', 'sass']
       },
       scripts: {
-        files: ['stylesheets/*.scss'],
+        files: ['build/stylesheets/*.scss'],
         tasks: ['sass'],
         options: {
           spawn: false,
@@ -36,9 +36,9 @@ module.exports = function(grunt) {
         },
         files: [
           //  Have index.html compiled into root folder for Github hosting
-          {'index.html': 'build/index.jade'},
+          {'index.html': 'build/views/index.jade'},
           {
-            cwd: 'build/partials',
+            cwd: 'build/views/partials',
             src: '*.jade',
             dest: 'views',
             expand: true,
@@ -54,7 +54,7 @@ module.exports = function(grunt) {
           style: 'compressed'
         },
         files: {
-          'public/assets/css/style.min.css': 'stylesheets/style.scss'
+          'public/assets/styles/style.min.css': 'build/stylesheets/style.scss'
         }
       }
     },
